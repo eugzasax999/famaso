@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://fontawesome.com/v6/docs/web/style/power-transform">
+    <link rel="stylesheet" href="https://fontawesome.com/docs/web/style/mask">
+    <link rel="stylesheet" href="https://fontawesome.com/docs/web/style/layer">
+
+
+    
+    
+    <title>FAMASO | Our Services</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+<body>
+    <a href="index.html" class="home-button"><i class="fas fa-home"></i> Home</a>
+    <div class="container">
+        <h2>Our Services</h2>
+        <section class="services">
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><i class="fas fa-truck-pickup"></i></div>
+                    <div class="title">Transport</div>
+                    <p>FAMASO links both the farmer and the buyer with third party transport services to deliver goods.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><i class="fa fa-mobile"></i></div>
+                    <div class="title">Customer Care</div>
+                    <p>Through our customer care, both farmers and buyers are able to contact us incase of any needed information or Services they require.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><i class="fas fa-wrench"></i></div>
+                    <div class="title">Greenhouse Installments </div>
+                    <p>FAMASO will assist the farmers to set up greenhouses if needed by linking them up with the required providers.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><i class="fas fa-brush"></i></div>
+                    <div class="title">Guiding Tips </div>
+                    <p>  FAMASO offers farmers guiding tips on techniques of production.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <div class="icon"><i class="fa fa-line-chart"></i></div>
+                    <div class="title">Advertising </div>
+                    <p>Through our platforms, we advertise different goods for farmers so that the buyers may be able to get surplus goods.</p>
+                </div>
+            </div>
+            
+            </div>
+        </section>
+    </div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    position: relative;
+    background: #111;
+    color: white;
+}
+
+.container{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .services{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container .services .card{
+    width: 330px;
+    text-align: center;
+    background: #222;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container .services .card:hover{
+    background: rgb(146, 7, 60);
+}
+
+.container .services .card .content{
+    transition: 0.3s;
+}
+
+.container .services .card:hover .content{
+    transform: scale(1.07);
+}
+
+.container .services .card .content .icon{
+    padding: 5px 0;
+    color: white;
+}
+
+.container .services .card .content .icon i{
+    font-size: 40px;
+}
+
+.container .services .card:hover .content .title{
+    color: white;
+}
+
+.container .services .card .content .title{
+    padding: 5px 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: chocolate;
+    transition: 0.3s;
+}
+
+
+.home-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #555;
+}
+
+    </style>
+    
+</body>
+</html>
